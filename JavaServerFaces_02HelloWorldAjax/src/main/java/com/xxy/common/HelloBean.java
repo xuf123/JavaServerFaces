@@ -28,5 +28,8 @@ public class HelloBean implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
-
+    
+    public void show(){
+    	System.out.println("show!!!!!!!!!!");
+    }
 }
